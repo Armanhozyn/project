@@ -1,0 +1,135 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: sans-serif!important;
+	-webkit-text-size-adjust: 100%;
+}
+.navbar-bg{
+	background : #2E3E4E;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #07ABD2;
+}
+.two{
+	font-size:20px;
+	color:#427BBC;
+	font-weight:bold;
+	font-family: cursive;
+	
+}
+.five {
+    font-size: 25px;
+    color: #427BBC;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.lsidebar-p{
+	color:#707070;
+	font-family:sidebar-p;
+	font-size: 15px;
+}
+sup {
+    top: -3px;
+}
+
+sub, sup {
+    position: relative;
+    font-size: 100%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+.form-control-up-input {
+
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+	
+	
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+#input-design{
+	background-image : url('img/icon-3.png');
+	background-position: 150px center;
+	background-size : 40px;
+	background-repeat : no-repeat;
+}
+.btn-back{
+	background:#F5F6F7;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+#button-back{
+	background-image : url('img/icon-4.png');
+	background-position: 16px center;
+	background-size : 22px;
+	background-repeat : no-repeat;
+}
+.drop-icon::after {
+    margin-left: 3.255em;
+}
+.btn-back-1{
+	background:#0E76BC;
+	color:#EFF2F2;
+}
+.underline{
+	height:1px ;
+	width:65%;
+	background:#CCCCCC;
+}
+.con-back{
+	background:none;
+	padding: 5px 8px;
+}
+.hr{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.form-control-dwn-input{
+	width:90%;
+	margin-left:8px;
+	border-radius: 11.25rem;
+}
+.fonts-right{
+	font-size:14px;
+	color:#CCCCCC;
+	font-family: 'Ubuntu', sans-serif;
+}
+.back-img{
+	background-image: url('img/img-5.png');
+	background-position: center center;
+	background-size : cover;
+	background-repeat : no-repeat;
+}
+
+
+
+@media (max-width:1200px){
+	.res-upload{
+		margin-left:5px !important;
+		margin-bottom:5px !important;
+		
+	}
+	.res-icon-11{
+		display:none !important ;
+	}
+	.res-p{
+		display:none !important;
+	}
+}
+
